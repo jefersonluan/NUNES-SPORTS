@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <Container>
-        <Title>PRODUTOS</Title>
+        <Title>NUNES SPORTS</Title>
         <Form onEdit={onEdit} setOnEdit={setOnEdit} getProdutos={getProdutos}/>
         <h2>LISTA DE PRODUTOS</h2>
         <Grid produtos={produtos} setProdutos={setProdutos} setOnEdit={setOnEdit}/>
